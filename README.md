@@ -16,3 +16,38 @@ The `sfdx-project.json` file contains useful configuration information for your 
 - [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
 - [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## SparkNest Salesforce Capstone
+
+### Project Components
+
+**Custom Data Model**
+- Enquiry (`Enquiry__c`)
+- Enquiry Product (`Enquiry_Product__c`)
+- Customer budget validation and enquiry status management
+
+**Automation**
+- Convert Enquiry to Case Screen Flow
+- Complete Tasks when an Enquiry is closed
+- Update the Enquiry Product count
+- Weekly Enquiry Summary Flow
+
+**Apex Development**
+- Enquiry trigger and dispatcher
+- Enquiry service and trigger handler
+- Follow-up Task creation
+- Closed Date stamping
+- Stale Enquiry batch processing and scheduler
+- SparkNest Enquiry REST API
+
+**Testing**
+- `EnquiryServiceTest`
+- `CloseStaleEnquiriesBatchTest`
+- Latest recorded run: 6 tests passed, 0 failures
+
+**Lightning Apps**
+- SparkNest Sales
+- SparkNest Support
+
+### Git History
+
+The project uses Git to track Salesforce metadata and project documentation. Meaningful commits document project setup, test results, and project documentation.
